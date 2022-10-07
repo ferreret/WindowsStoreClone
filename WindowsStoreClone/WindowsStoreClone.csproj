@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UserControls\001-mail inbox app.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JonSkeet.MiscUtil" Version="0.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="UserControls\001-mail inbox app.png" />
+  </ItemGroup>
+
+</Project>
